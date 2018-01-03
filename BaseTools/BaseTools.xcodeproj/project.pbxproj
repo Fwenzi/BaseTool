@@ -21,6 +21,7 @@
 		8EB74C3C1FE37C5A0051259E /* UILabel+Masonry.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EB74C341FE37C5A0051259E /* UILabel+Masonry.m */; };
 		8EB74C3D1FE37C5A0051259E /* UIView+Masonry.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EB74C361FE37C5A0051259E /* UIView+Masonry.m */; };
 		8EB74C3E1FE37C5A0051259E /* UIView+SnapshotView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EB74C381FE37C5A0051259E /* UIView+SnapshotView.m */; };
+		8EDE76B11FFCD9630050333F /* NSString+EMOEmoji.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EDE76B01FFCD9630050333F /* NSString+EMOEmoji.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,6 +70,8 @@
 		8EB74C361FE37C5A0051259E /* UIView+Masonry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Masonry.m"; sourceTree = "<group>"; };
 		8EB74C371FE37C5A0051259E /* UIView+SnapshotView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+SnapshotView.h"; sourceTree = "<group>"; };
 		8EB74C381FE37C5A0051259E /* UIView+SnapshotView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+SnapshotView.m"; sourceTree = "<group>"; };
+		8EDE76AF1FFCD9620050333F /* NSString+EMOEmoji.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+EMOEmoji.h"; sourceTree = "<group>"; };
+		8EDE76B01FFCD9630050333F /* NSString+EMOEmoji.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+EMOEmoji.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -154,6 +157,8 @@
 		8EB74C2C1FE37C5A0051259E /* Tools */ = {
 			isa = PBXGroup;
 			children = (
+				8EDE76AF1FFCD9620050333F /* NSString+EMOEmoji.h */,
+				8EDE76B01FFCD9630050333F /* NSString+EMOEmoji.m */,
 				8EB74C2D1FE37C5A0051259E /* UIButton+Masonry.h */,
 				8EB74C2E1FE37C5A0051259E /* UIButton+Masonry.m */,
 				8EB74C2F1FE37C5A0051259E /* UIImage+ImageWithColor.h */,
@@ -305,6 +310,7 @@
 			files = (
 				8EB74C3D1FE37C5A0051259E /* UIView+Masonry.m in Sources */,
 				8EB74C3A1FE37C5A0051259E /* UIImage+ImageWithColor.m in Sources */,
+				8EDE76B11FFCD9630050333F /* NSString+EMOEmoji.m in Sources */,
 				8EB74C3E1FE37C5A0051259E /* UIView+SnapshotView.m in Sources */,
 				8EB74BFF1FE37C190051259E /* ViewController.m in Sources */,
 				8EB74C3B1FE37C5A0051259E /* UIImageView+Masonry.m in Sources */,
