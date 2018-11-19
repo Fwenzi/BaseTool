@@ -7,6 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		632A161721A2B87400AA37DE /* UIImage+Gif.m in Sources */ = {isa = PBXBuildFile; fileRef = 632A161021A2B87300AA37DE /* UIImage+Gif.m */; };
+		632A161821A2B87400AA37DE /* UIResponder+Router.m in Sources */ = {isa = PBXBuildFile; fileRef = 632A161121A2B87300AA37DE /* UIResponder+Router.m */; };
+		632A161921A2B87400AA37DE /* CALayer+ShadowRadius.m in Sources */ = {isa = PBXBuildFile; fileRef = 632A161321A2B87300AA37DE /* CALayer+ShadowRadius.m */; };
+		632A161A21A2B87400AA37DE /* UIFont+SystemFontName.m in Sources */ = {isa = PBXBuildFile; fileRef = 632A161421A2B87300AA37DE /* UIFont+SystemFontName.m */; };
+		632A161B21A2B87400AA37DE /* UIColor+WZPalette.m in Sources */ = {isa = PBXBuildFile; fileRef = 632A161621A2B87300AA37DE /* UIColor+WZPalette.m */; };
+		632A161F21A2B8D500AA37DE /* UITextField+Masonry.m in Sources */ = {isa = PBXBuildFile; fileRef = 632A161E21A2B8D500AA37DE /* UITextField+Masonry.m */; };
+		632A162721A2B9AB00AA37DE /* RemoveButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 632A162421A2B9AB00AA37DE /* RemoveButton.m */; };
+		632A162821A2B9AB00AA37DE /* UIViewController+AppsSuspend.m in Sources */ = {isa = PBXBuildFile; fileRef = 632A162521A2B9AB00AA37DE /* UIViewController+AppsSuspend.m */; };
+		632A162921A2B9AB00AA37DE /* AppsSuspendManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 632A162621A2B9AB00AA37DE /* AppsSuspendManager.m */; };
+		632A163121A2BA7E00AA37DE /* WZCustomEmptyView.m in Sources */ = {isa = PBXBuildFile; fileRef = 632A162E21A2BA7E00AA37DE /* WZCustomEmptyView.m */; };
+		632A163221A2BA7E00AA37DE /* WZEmptyTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 632A162F21A2BA7E00AA37DE /* WZEmptyTableView.m */; };
+		632A163321A2BA7E00AA37DE /* EmptyCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 632A163021A2BA7E00AA37DE /* EmptyCollectionView.m */; };
 		8EB74BFC1FE37C190051259E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EB74BFB1FE37C190051259E /* AppDelegate.m */; };
 		8EB74BFF1FE37C190051259E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EB74BFE1FE37C190051259E /* ViewController.m */; };
 		8EB74C021FE37C190051259E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8EB74C001FE37C190051259E /* Main.storyboard */; };
@@ -22,6 +34,7 @@
 		8EB74C3D1FE37C5A0051259E /* UIView+Masonry.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EB74C361FE37C5A0051259E /* UIView+Masonry.m */; };
 		8EB74C3E1FE37C5A0051259E /* UIView+SnapshotView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EB74C381FE37C5A0051259E /* UIView+SnapshotView.m */; };
 		8EDE76B11FFCD9630050333F /* NSString+EMOEmoji.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EDE76B01FFCD9630050333F /* NSString+EMOEmoji.m */; };
+		A2A9351DF06D78B6DD513B64 /* libPods-BaseTools.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BE5EB7F811EB2C65D0CD7168 /* libPods-BaseTools.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +55,32 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		632A160C21A2B7FF00AA37DE /* CommonFactory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CommonFactory.h; sourceTree = "<group>"; };
+		632A160D21A2B87200AA37DE /* CALayer+ShadowRadius.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CALayer+ShadowRadius.h"; sourceTree = "<group>"; };
+		632A160E21A2B87200AA37DE /* UIFont+SystemFontName.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIFont+SystemFontName.h"; sourceTree = "<group>"; };
+		632A160F21A2B87200AA37DE /* UIImage+Gif.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Gif.h"; sourceTree = "<group>"; };
+		632A161021A2B87300AA37DE /* UIImage+Gif.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Gif.m"; sourceTree = "<group>"; };
+		632A161121A2B87300AA37DE /* UIResponder+Router.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIResponder+Router.m"; sourceTree = "<group>"; };
+		632A161221A2B87300AA37DE /* UIResponder+Router.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIResponder+Router.h"; sourceTree = "<group>"; };
+		632A161321A2B87300AA37DE /* CALayer+ShadowRadius.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CALayer+ShadowRadius.m"; sourceTree = "<group>"; };
+		632A161421A2B87300AA37DE /* UIFont+SystemFontName.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIFont+SystemFontName.m"; sourceTree = "<group>"; };
+		632A161521A2B87300AA37DE /* UIColor+WZPalette.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+WZPalette.h"; sourceTree = "<group>"; };
+		632A161621A2B87300AA37DE /* UIColor+WZPalette.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+WZPalette.m"; sourceTree = "<group>"; };
+		632A161D21A2B8D500AA37DE /* UITextField+Masonry.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UITextField+Masonry.h"; sourceTree = "<group>"; };
+		632A161E21A2B8D500AA37DE /* UITextField+Masonry.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UITextField+Masonry.m"; sourceTree = "<group>"; };
+		632A162121A2B9AB00AA37DE /* RemoveButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RemoveButton.h; sourceTree = "<group>"; };
+		632A162221A2B9AB00AA37DE /* UIViewController+AppsSuspend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+AppsSuspend.h"; sourceTree = "<group>"; };
+		632A162321A2B9AB00AA37DE /* AppsSuspendManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppsSuspendManager.h; sourceTree = "<group>"; };
+		632A162421A2B9AB00AA37DE /* RemoveButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RemoveButton.m; sourceTree = "<group>"; };
+		632A162521A2B9AB00AA37DE /* UIViewController+AppsSuspend.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+AppsSuspend.m"; sourceTree = "<group>"; };
+		632A162621A2B9AB00AA37DE /* AppsSuspendManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppsSuspendManager.m; sourceTree = "<group>"; };
+		632A162B21A2BA7E00AA37DE /* WZEmptyTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WZEmptyTableView.h; sourceTree = "<group>"; };
+		632A162C21A2BA7E00AA37DE /* WZCustomEmptyView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WZCustomEmptyView.h; sourceTree = "<group>"; };
+		632A162D21A2BA7E00AA37DE /* EmptyCollectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmptyCollectionView.h; sourceTree = "<group>"; };
+		632A162E21A2BA7E00AA37DE /* WZCustomEmptyView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WZCustomEmptyView.m; sourceTree = "<group>"; };
+		632A162F21A2BA7E00AA37DE /* WZEmptyTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WZEmptyTableView.m; sourceTree = "<group>"; };
+		632A163021A2BA7E00AA37DE /* EmptyCollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EmptyCollectionView.m; sourceTree = "<group>"; };
+		7A601B4B0994694E5B7C46D7 /* Pods-BaseTools.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BaseTools.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BaseTools/Pods-BaseTools.debug.xcconfig"; sourceTree = "<group>"; };
 		8EB74BF71FE37C190051259E /* BaseTools.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BaseTools.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8EB74BFA1FE37C190051259E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		8EB74BFB1FE37C190051259E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -72,6 +111,8 @@
 		8EB74C381FE37C5A0051259E /* UIView+SnapshotView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+SnapshotView.m"; sourceTree = "<group>"; };
 		8EDE76AF1FFCD9620050333F /* NSString+EMOEmoji.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+EMOEmoji.h"; sourceTree = "<group>"; };
 		8EDE76B01FFCD9630050333F /* NSString+EMOEmoji.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+EMOEmoji.m"; sourceTree = "<group>"; };
+		BE5EB7F811EB2C65D0CD7168 /* libPods-BaseTools.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BaseTools.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAA044346EF84EDC004CE171 /* Pods-BaseTools.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BaseTools.release.xcconfig"; path = "Pods/Target Support Files/Pods-BaseTools/Pods-BaseTools.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +120,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A2A9351DF06D78B6DD513B64 /* libPods-BaseTools.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -99,6 +141,73 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		632A160B21A2B78400AA37DE /* CommonFactory */ = {
+			isa = PBXGroup;
+			children = (
+				632A160C21A2B7FF00AA37DE /* CommonFactory.h */,
+				8EB74C2D1FE37C5A0051259E /* UIButton+Masonry.h */,
+				8EB74C2E1FE37C5A0051259E /* UIButton+Masonry.m */,
+				8EB74C2F1FE37C5A0051259E /* UIImage+ImageWithColor.h */,
+				8EB74C301FE37C5A0051259E /* UIImage+ImageWithColor.m */,
+				8EB74C311FE37C5A0051259E /* UIImageView+Masonry.h */,
+				8EB74C321FE37C5A0051259E /* UIImageView+Masonry.m */,
+				8EB74C331FE37C5A0051259E /* UILabel+Masonry.h */,
+				8EB74C341FE37C5A0051259E /* UILabel+Masonry.m */,
+				8EB74C351FE37C5A0051259E /* UIView+Masonry.h */,
+				8EB74C361FE37C5A0051259E /* UIView+Masonry.m */,
+				632A161D21A2B8D500AA37DE /* UITextField+Masonry.h */,
+				632A161E21A2B8D500AA37DE /* UITextField+Masonry.m */,
+			);
+			path = CommonFactory;
+			sourceTree = "<group>";
+		};
+		632A161C21A2B88E00AA37DE /* OtherTools */ = {
+			isa = PBXGroup;
+			children = (
+				632A160D21A2B87200AA37DE /* CALayer+ShadowRadius.h */,
+				632A161321A2B87300AA37DE /* CALayer+ShadowRadius.m */,
+				632A161521A2B87300AA37DE /* UIColor+WZPalette.h */,
+				632A161621A2B87300AA37DE /* UIColor+WZPalette.m */,
+				632A160E21A2B87200AA37DE /* UIFont+SystemFontName.h */,
+				632A161421A2B87300AA37DE /* UIFont+SystemFontName.m */,
+				632A160F21A2B87200AA37DE /* UIImage+Gif.h */,
+				632A161021A2B87300AA37DE /* UIImage+Gif.m */,
+				632A161221A2B87300AA37DE /* UIResponder+Router.h */,
+				632A161121A2B87300AA37DE /* UIResponder+Router.m */,
+				8EDE76AF1FFCD9620050333F /* NSString+EMOEmoji.h */,
+				8EDE76B01FFCD9630050333F /* NSString+EMOEmoji.m */,
+				8EB74C371FE37C5A0051259E /* UIView+SnapshotView.h */,
+				8EB74C381FE37C5A0051259E /* UIView+SnapshotView.m */,
+			);
+			path = OtherTools;
+			sourceTree = "<group>";
+		};
+		632A162021A2B9AB00AA37DE /* AppsSuspend */ = {
+			isa = PBXGroup;
+			children = (
+				632A162121A2B9AB00AA37DE /* RemoveButton.h */,
+				632A162421A2B9AB00AA37DE /* RemoveButton.m */,
+				632A162321A2B9AB00AA37DE /* AppsSuspendManager.h */,
+				632A162621A2B9AB00AA37DE /* AppsSuspendManager.m */,
+				632A162221A2B9AB00AA37DE /* UIViewController+AppsSuspend.h */,
+				632A162521A2B9AB00AA37DE /* UIViewController+AppsSuspend.m */,
+			);
+			path = AppsSuspend;
+			sourceTree = "<group>";
+		};
+		632A162A21A2BA7E00AA37DE /* EmptyWidget */ = {
+			isa = PBXGroup;
+			children = (
+				632A162B21A2BA7E00AA37DE /* WZEmptyTableView.h */,
+				632A162F21A2BA7E00AA37DE /* WZEmptyTableView.m */,
+				632A162C21A2BA7E00AA37DE /* WZCustomEmptyView.h */,
+				632A162E21A2BA7E00AA37DE /* WZCustomEmptyView.m */,
+				632A162D21A2BA7E00AA37DE /* EmptyCollectionView.h */,
+				632A163021A2BA7E00AA37DE /* EmptyCollectionView.m */,
+			);
+			path = EmptyWidget;
+			sourceTree = "<group>";
+		};
 		8EB74BEE1FE37C190051259E = {
 			isa = PBXGroup;
 			children = (
@@ -106,6 +215,8 @@
 				8EB74C121FE37C190051259E /* BaseToolsTests */,
 				8EB74C1D1FE37C190051259E /* BaseToolsUITests */,
 				8EB74BF81FE37C190051259E /* Products */,
+				905224A7548A3BFBF45D6878 /* Pods */,
+				F3DC5A12E273D48684B3A39E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -157,22 +268,29 @@
 		8EB74C2C1FE37C5A0051259E /* Tools */ = {
 			isa = PBXGroup;
 			children = (
-				8EDE76AF1FFCD9620050333F /* NSString+EMOEmoji.h */,
-				8EDE76B01FFCD9630050333F /* NSString+EMOEmoji.m */,
-				8EB74C2D1FE37C5A0051259E /* UIButton+Masonry.h */,
-				8EB74C2E1FE37C5A0051259E /* UIButton+Masonry.m */,
-				8EB74C2F1FE37C5A0051259E /* UIImage+ImageWithColor.h */,
-				8EB74C301FE37C5A0051259E /* UIImage+ImageWithColor.m */,
-				8EB74C311FE37C5A0051259E /* UIImageView+Masonry.h */,
-				8EB74C321FE37C5A0051259E /* UIImageView+Masonry.m */,
-				8EB74C331FE37C5A0051259E /* UILabel+Masonry.h */,
-				8EB74C341FE37C5A0051259E /* UILabel+Masonry.m */,
-				8EB74C351FE37C5A0051259E /* UIView+Masonry.h */,
-				8EB74C361FE37C5A0051259E /* UIView+Masonry.m */,
-				8EB74C371FE37C5A0051259E /* UIView+SnapshotView.h */,
-				8EB74C381FE37C5A0051259E /* UIView+SnapshotView.m */,
+				632A162A21A2BA7E00AA37DE /* EmptyWidget */,
+				632A162021A2B9AB00AA37DE /* AppsSuspend */,
+				632A161C21A2B88E00AA37DE /* OtherTools */,
+				632A160B21A2B78400AA37DE /* CommonFactory */,
 			);
 			path = Tools;
+			sourceTree = "<group>";
+		};
+		905224A7548A3BFBF45D6878 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7A601B4B0994694E5B7C46D7 /* Pods-BaseTools.debug.xcconfig */,
+				DAA044346EF84EDC004CE171 /* Pods-BaseTools.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F3DC5A12E273D48684B3A39E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BE5EB7F811EB2C65D0CD7168 /* libPods-BaseTools.a */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -182,6 +300,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8EB74C231FE37C190051259E /* Build configuration list for PBXNativeTarget "BaseTools" */;
 			buildPhases = (
+				C2B6EB7F6DA20292F3DFFF40 /* [CP] Check Pods Manifest.lock */,
 				8EB74BF31FE37C190051259E /* Sources */,
 				8EB74BF41FE37C190051259E /* Frameworks */,
 				8EB74BF51FE37C190051259E /* Resources */,
@@ -303,6 +422,27 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		C2B6EB7F6DA20292F3DFFF40 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BaseTools-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		8EB74BF31FE37C190051259E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -312,12 +452,24 @@
 				8EB74C3A1FE37C5A0051259E /* UIImage+ImageWithColor.m in Sources */,
 				8EDE76B11FFCD9630050333F /* NSString+EMOEmoji.m in Sources */,
 				8EB74C3E1FE37C5A0051259E /* UIView+SnapshotView.m in Sources */,
+				632A163121A2BA7E00AA37DE /* WZCustomEmptyView.m in Sources */,
+				632A161921A2B87400AA37DE /* CALayer+ShadowRadius.m in Sources */,
 				8EB74BFF1FE37C190051259E /* ViewController.m in Sources */,
 				8EB74C3B1FE37C5A0051259E /* UIImageView+Masonry.m in Sources */,
+				632A162721A2B9AB00AA37DE /* RemoveButton.m in Sources */,
+				632A161A21A2B87400AA37DE /* UIFont+SystemFontName.m in Sources */,
+				632A163321A2BA7E00AA37DE /* EmptyCollectionView.m in Sources */,
+				632A161721A2B87400AA37DE /* UIImage+Gif.m in Sources */,
+				632A162921A2B9AB00AA37DE /* AppsSuspendManager.m in Sources */,
 				8EB74C0A1FE37C190051259E /* main.m in Sources */,
+				632A161B21A2B87400AA37DE /* UIColor+WZPalette.m in Sources */,
+				632A161F21A2B8D500AA37DE /* UITextField+Masonry.m in Sources */,
 				8EB74C3C1FE37C5A0051259E /* UILabel+Masonry.m in Sources */,
+				632A163221A2BA7E00AA37DE /* WZEmptyTableView.m in Sources */,
 				8EB74BFC1FE37C190051259E /* AppDelegate.m in Sources */,
 				8EB74C391FE37C5A0051259E /* UIButton+Masonry.m in Sources */,
+				632A161821A2B87400AA37DE /* UIResponder+Router.m in Sources */,
+				632A162821A2B9AB00AA37DE /* UIViewController+AppsSuspend.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -478,6 +630,7 @@
 		};
 		8EB74C241FE37C190051259E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7A601B4B0994694E5B7C46D7 /* Pods-BaseTools.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -492,6 +645,7 @@
 		};
 		8EB74C251FE37C190051259E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DAA044346EF84EDC004CE171 /* Pods-BaseTools.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

@@ -1,0 +1,11 @@
+
+platform:ios, '8.0'
+
+target 'BaseTools' do  #工程名称
+
+    #三方开源
+    pod 'DZNEmptyDataSet'
+    pod 'AFNetworking'
+    pod 'Masonry'
+
+end

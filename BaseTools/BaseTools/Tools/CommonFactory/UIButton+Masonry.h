@@ -12,4 +12,8 @@
 
 +(UIButton *)buttonWithFont:(UIFont *)font textClolr:(UIColor *)textClolr backClolr:(UIColor *)backClolr radius:(CGFloat)radius superView:(UIView *)superView;
 
++(UIButton *)buttonWithNormalImg:(NSString *)normalImgStr selectImg:(NSString *)selectImgStr backClolr:(UIColor *)backClolr superView:(UIView *)superView;
+
++(UIButton *)buttonWithNormalImg:(NSString *)normalImgStr highImg:(NSString *)highImgStr selectImg:(NSString *)selectImgStr backClolr:(UIColor *)backClolr superView:(UIView *)superView;
+
 @end
